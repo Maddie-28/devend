@@ -1,0 +1,40 @@
+/* Remove default spacing */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Website title */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #222;
+}
